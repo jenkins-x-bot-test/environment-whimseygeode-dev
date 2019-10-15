@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:whimseygeode/adminUser:password
+  username: admin
+dashboardAuthID: vault:whimseygeode:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:whimseygeode:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:whimseygeode/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:whimseygeode/prow:hmacToken
